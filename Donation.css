@@ -1,0 +1,70 @@
+*{
+    box-sizing:content-box;
+    
+}
+.pp{
+    border: 1px solid transparent;
+    height:50px;
+    width:72px;
+    margin:10px;
+    float: left;
+}
+img{
+    height:100%;
+    width:100%;
+    
+}
+.container{
+    padding: 10px;
+    padding-bottom: 50px;
+    border:0.1px solid  transparent;
+    border-radius: 65px;
+    margin-left: 400px;
+    margin-right:460px;
+    padding-left: 60px;
+    background:linear-gradient(to right,#808080,#808000);
+}
+input[type="name"],input[type="email"],
+input[type="number"],input[type="password"],
+input[type="date"],select{
+    width:"72";
+    border:2px solid transparent;
+    padding:10px;
+    border-radius: 65px;
+    background-color: rgb(222, 240, 255);
+    
+}
+textarea{
+    border:2px solid transparent;
+    padding:10px;
+    border-radius: 35px;
+    background-color: aliceblue;
+    
+}
+.main{
+    text-align: center;
+}
+input[type="submit"]
+{
+    width:175px;
+    height:45px;
+    background:linear-gradient(to right,rgb(206, 136, 193),rgb(206, 136, 192));
+    border-radius: 65px;
+    border:1px solid transparent;
+    box-shadow: 3px 1px 4px ;
+    cursor:grab;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    font-size: 30px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type="submit"]:hover{
+    color: #f8f5f6;
+    background:linear-gradient(to left,rgb(206, 136, 193),rgb(206, 136, 192)) ;
+}

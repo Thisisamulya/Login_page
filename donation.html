@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Donation.css">
+    <title>Payment Details</title>
+</head>
+<body>
+    <form>
+        <div class="container">
+        <h1>Please fill the following details for Donation</h1>
+        <div class="main"><h2>Contact information</h2></div>
+        <p>required details are prefixed with *</p>
+        <p>*Name : <input type="name"  name="name" id="name" placeholder="Enter your name" required> </p>
+        
+            <div class="ra">
+                *Gender :
+                    <input type="radio" name="gender" id="gender" required> Female <input type="radio" name="gender" id="gender" required> 
+                    Male<input type="radio" name="gender" id="gender" required> Prefer not to say
+            </div>
+        
+        <p>*contact : <input type="number" name="contact" id="contact" placeholder="ex:+917684563987" required></p>
+        <p>*email : <input type="email" name="email" id="email" placeholder="ex:anon123@gmail.com" required></p>
+        <p>Address :</p>
+        <p> <textarea name="address" id="address" cols="50" rows="10" placeholder="Enter your address"></textarea></p>
+        <div class="main"><h2>Payment information</h2></div>
+        <div class="pay">
+            <p>Available payment Types :</p>
+            <div class="pp"><img src="C:\Users\DELL\Desktop\myhtml\css3 ref\phone pe.jpg"></div>
+            <div class="pp"><img src="C:\Users\DELL\Desktop\myhtml\css3 ref\gpay.jpg"></div>
+            <div class="pp"><img src="C:\Users\DELL\Desktop\myhtml\css3 ref\paytm.jpg"></div>
+            <div class="pp"><img src="C:\Users\DELL\Desktop\myhtml\css3 ref\upi.jpg"></div>
+        </div><br><br><br><br>
+        <p>*Type of payment :
+            <select name="pay_type" id="pay_type" required>
+                <option value="">--select an option--</option>
+                <option value="phone_pe">Phone pe</option>
+                <option value="Gpay">Gpay</option>
+                <option value="Paytm">Paytm</option>
+                <option value="upi">UPI</option>
+            </select>
+        </p>
+        <p>*payment number : <input type="number" name="card_number" id="card_number" placeholder="enter your payment number" required></p>
+        <p>*password : <input type="password" name="password" id="password" placeholder="enter the password" required></p>
+        <input type="submit" value="Pay now">
+    </div>
+    </form>
+</body>
+</html>
